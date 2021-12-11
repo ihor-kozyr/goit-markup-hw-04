@@ -243,12 +243,21 @@ font-size: 14px;
   color: var(--accent-color);
 
 }
+.button2:hover  .link-icon2 {
+ fill: #2196F3;
+ 
+}
+.button2:focus  .link-icon2 {
+ fill: #2196F3;
+ 
+}
+
+
+
 .button2{
 font-weight: 500;
 padding-top: 24px;
 padding-bottom: 25px;
-
-
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -431,6 +440,9 @@ justify-content: center;
 .filter .button {
   margin-right: 8px;
 }
+.filter-shadow:hover, .filter-shadow:focus{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .projects a {
   text-decoration: none;
@@ -456,9 +468,10 @@ justify-content: center;
   margin-left: -30px;
   margin-top: -30px;
 }
-.projects :hover{
+.projects-box-shadow:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .projects-item {
   margin-left: 30px;
@@ -670,14 +683,7 @@ min-width: 106px;
 }
 
 
-/*.c3:hover+.client-icon :hover{
-  fill: #2196F3; 
 
-}
-.c3:focus+.client-icon :focus{
-  fill: #2196F3; 
-
-}*/
 
 .client-icon :not(:last-child ){margin-right: 30px;}
 
