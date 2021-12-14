@@ -570,16 +570,22 @@ h2 {
   border-radius: 50%;
   
 }
+.social-block2:focus, .social-block2:hover  {
+  --color1: black;
+  background-color: #2196F3;
+  --color2: #fff;
+}
+
 .social-links2 {
   width: 44px;
   height: 44px;
   --color1: none;
 }
-
-.social-links2:hover, .social-links2:focus  {
+/*
+.social-links2:hover {
   --color1: #2196F3;
   --color2: #fff;
-}
+}*/
 /*.social-links2:focus {
   --color1: #2196F3;
   --color2: #fff;
@@ -602,9 +608,9 @@ h2 {
 /**var3**/
 /*Футер кнопки соцмереж*/
 .social-block3 {
-  display: block;
-  display: flex;
+    display: flex;
     border-radius: 50%;
+    
     background: rgba(255, 255, 255, 0.1);
     margin-right: 10px;
 }
@@ -614,17 +620,17 @@ h2 {
   --color1: none;
   --color2: #fff;
 }
-
+.social-links3:focus {
+  --color1:  #2196F3;
+  --color2: #fff;
+ 
+}
 .social-links3:hover{
   --color1:  #2196F3;
   --color2: #fff;
   
 }
-.social-links3:focus{
-  --color1:  #2196F3;
-  --color2: #fff;
- 
-}
+
 
 
 /**/
@@ -748,18 +754,44 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 justify-content: center;
-
+cursor: pointer;
 }
-/*
-.client-logo:focus,
-.client-logo:hover{
+
+.client-logo:focus, .client-logo:hover {
  fill: #2196F3;
  border: 1px solid;
- border-color:  #2196F3;}  */
+ border-color:  #2196F3;}  
 
 
 
+/*
+.client-logo:hover  .client-icon{
+ fill: #2196F3;
+ 
+}
 
+.client-logo:focus  .client-icon{
+ fill: #2196F3;
+ 
+}*/
+
+
+.client-icon:hover, .client-logo:hover{
+ fill: #2196F3;
+ 
+}
+
+/*.social-block2:focus, .social-block2:hover  {
+  --color1: black;
+  background-color: #2196F3;
+  --color2: #fff;
+}*/
+
+
+.client-logo:focus,  .client-icon:focus{
+ fill: #2196F3;
+ 
+}
 .client-logo:hover  .client-icon{
  fill: #2196F3;
  
@@ -770,10 +802,20 @@ justify-content: center;
  
 }
 
+
+.client-icon:focus, .client-icon:hover {
+ fill: #2196F3;
+ border: 1px solid;
+ border-color:  #2196F3;}
+
+
+
+
 .client-logo:hover   {
  
  border: 1px solid;
  border-color:   #2196F3;
+  
 }
 
 
